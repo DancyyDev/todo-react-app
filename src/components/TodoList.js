@@ -38,7 +38,7 @@ export default function TodoList() {
   }
 
   return (
-    <div>
+    <div className='todoForm'>
       <h1>What is todays mission?</h1>
       <TodoForm onSubmit={addTodo}/>
       <Todo 
